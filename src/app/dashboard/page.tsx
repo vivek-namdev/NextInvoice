@@ -17,7 +17,7 @@ export default function Home() {
     <main className="flex flex-col h-full justify-center items-center text-center gap-6 max-w-5xl mx-auto py-6">
       <div className="flex justify-between items-center w-full px-4">
         <h1 className="text-5xl font-bold text-gray-800">Invoices</h1>
-        <Link href="/invoices/new" passHref>
+        <Link href="/invoices/new">
           <Button variant="outline" className="flex items-center gap-2">
             <CirclePlus className="h-4 w-4" />
             Create Invoice
